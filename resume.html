@@ -4,97 +4,262 @@
   <title>
     Paolo Milani | Resume
   </title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="header">
-    <span class="contactName">Paolo Milani</span>
-    <ul class="contactDetails">
-      <li><a href="mailto:milani_paolo@outlook.it"><ion-icon name="mail"></ion-icon> milani_paolo@outlook.it</a></li>
-      <li><a href="https://github.com/MilaniPaolo"><ion-icon name="logo-github"></ion-icon>MilaniPaolo</a></li>
-      <li><a href="tel:+393488676793"><ion-icon name="call"></ion-icon>3488676793</a></li>
-    </ul>
+<div style="background-color: #485461;background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);"
+     class="p-4 flex items-center justify-between text-white">
+  <div class="flex items-center">
+    <div class="w-20 h-20 rounded-full flex items-center justify-center overflow-hidden">
+      <img alt="profile image" class="contain"
+           src="https://media-exp1.licdn.com/dms/image/C5603AQF9BpePi9t6vA/profile-displayphoto-shrink_800_800/0/1589297300819?e=1639612800&v=beta&t=pX4DtNKaBfwhfb1xKuIgp5L5R8Wx53FWH8IjCd1H0Fg">
+    </div>
+    <span class="text-4xl font-medium	ml-2">Paolo Milani</span>
   </div>
-  <div class="resumeBody">
-    <!-- Experience -->
-    <div class="experienceSection">
-      <span class="sectionHeader">Experience</span>
-      <div class="experienceItem">
-        <div class="leftColumn">
-          <span class="companyName">PassperTu S.r.l.</span>
-          <span class="dateRange">nov 2017 - dic 2019</span>
-        </div>
-        <span class="rightColumn">
-          <span class="jobTitle">Frontend Developer</span>
-          <ul class="jobDescription">
-            <li>Architected and developed management back offices and CRMs <span class="accent">(Angular 8, NgRx, Rxjs, Bootstrap, Angular Material)</span>.</li>
-            <li>Developed a geocalized search engine for products <span class="accent">(Angular 8, Ionic 4, RxJS, SCSS)</span>.</li>
-            <li>Developed hybrid mobile apps for retail <span class="accent">(Angular 6, Ionic 3, RxJS, SCSS)</span>.</li>
-            <li>Designed and developed UI components library <span class="accent">(StencilJS, TSX, SCSS)</span>.</li>
-            <li>Architected and developed PWAs and implemented custom service workers <span class="accent">(Anular 8, Ionic 4, SCSS)</span>.</li>
-            <li>Performed scrum using Azure DevOps.</li>
-            <li>Acquired good knowledge of CMS like Umbraco and Contentful</li>
-          </ul>
-        </span>
+  <ul>
+    <li>
+      <a href="mailto:milani_paolo@outlook.it" class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+        </svg>
+        <span class="ml-2 text-gray-200">milani_paolo@outlook.it</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/MilaniPaolo" class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 16 16">
+          <path fill="#5C6BC0"
+                d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"/>
+        </svg>
+        <span class="ml-2 text-gray-200">MilaniPaolo</span>
+      </a>
+    </li>
+    <li>
+      <a href="tel:+393488676793" class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path
+              d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+        </svg>
+        <span class="ml-2 text-gray-200">+39 3488676793</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/paolo-milani-12a57a152/" class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="h-5 w-5" viewBox="0 0 24 24">
+          <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+        </svg>
+        <span class="ml-2 text-gray-200">Paolo Milani</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="p-4 grid grid-cols-1 auto-rows-auto">
+  <!-- Experience -->
+  <div class="flex flex-col">
+    <div class="uppercase font-medium">Experience</div>
+    <div class="w-full h-0.5 bg-gray-200 mb-2"></div>
+    <div class="w-full flex items-start">
+      <div class="w-1 h-10 bg-green-500 mt-1 mr-1"></div>
+      <div class="flex flex-col w-32">
+        <span class="capitalize font-medium text-gray-600 whitespace-nowrap">Euronovate s.a.</span>
+        <span class="text-sm text-gray-300 whitespace-nowrap">01-2020</span>
+      </div>
+      <div class="flex flex-col ml-8">
+        <span class="font-semibold">Frontend Developer</span>
+        <ul class="text-sm">
+          <li>
+            Implemented unit, integration and e2e tests to all frontend projects <span
+              class="text-gray-500 font-semibold">(Jest, Cypress)</span>.
+          </li>
+          <li>
+            Designed and developed ui component library in Stenciljs <span class="text-gray-500 font-semibold">(Stenciljs, Tailwindcss, SCSS)</span>.
+          </li>
+          <li>
+            Developed a workflow application for manage Spanish certifications <span
+              class="text-gray-500 font-semibold">(Angular, Bootstrap, Rxjs)</span>.
+          </li>
+          <li>
+            Acquired communication skills working with different team of other companies.
+          </li>
+          <li>
+            Architected and developed frontend applications for the remote signature certification on the banking
+            environment
+            <span class="text-gray-500 font-semibold">(Angular, Angular Material, Rxjs)</span>.
+          </li>
+          <li>
+            Acquired skills working on pdf.js and canvas <span class="text-gray-500 font-semibold">(Typescript, Rxjs)</span>.
+          </li>
+          <li>
+            Architected and developed new Angular libraries <span class="text-gray-500 font-semibold">(Angular, Angular Material, Rxjs)</span>.
+          </li>
+          <li>
+            Refactor and updated all Angular projects and libraries to the latest version.
+          </li>
+          <li>Acquired good knowledge of AWS management console.</li>
+        </ul>
       </div>
     </div>
-    <!-- Projects -->
-    <div class="projectsSection">
-      <span class="sectionHeader">Projects</span>
-      <div class="projectItem">
-        <div class="leftColumn">
-          <a class="projectName" href="https://github.com/MilaniPaolo/ng-refresher">
-            <span>NgRx Refresher<ion-icon name="logo-github"></ion-icon></span>
-          </a>
-          <span class="dateRange">2018</span>
-        </div>
-        <span class="rightColumn">
-          <ul class="projectDescription">
-            <li>Built an angular component for animating content data refresh Google style <span class="accent">(Angular, RxJs)</span>.</li>
-          </ul>
-        </span>
+    <div class="w-full flex items-start mt-4">
+      <div class="w-1 h-10 bg-green-500 mt-1 mr-1"></div>
+      <div class="flex flex-col w-32">
+        <span class="capitalize font-medium text-gray-600">PassperTu S.r.l.</span>
+        <span class="text-sm text-gray-300 whitespace-nowrap">11-2017 - 12-2019</span>
       </div>
-      <div class="projectItem">
-        <div class="leftColumn">
-          <a class="projectName" href="https://github.com/MilaniPaolo">
-            <span>Nested Dynamic NgForms <ion-icon name="logo-github"></ion-icon></span>
-          </a>
-          <span class="dateRange">2019</span>
-        </div>
-        <span class="rightColumn">
-          <ul class="projectDescription">
-            <li>Built an angular application example for generate nested dynamic forms <span class="accent">(Angular, RxJs)</span>.</li>
-          </ul>
-        </span>
-      </div>
-    </div>
-    <div class="threeColumnSection">
-          <!-- Skills -->
-      <div class="skillsSection">
-        <div class="sectionHeader">Skills</div>
-        <div class="description">Angular 8, Ionic 4, StencilJS, RxJs, Redux, JS, JSON, Typescript, Bootstrap, Angular Material, HTML, CSS, SASS, Agile, DevOps, Photoshop</div>
-      </div>
-      <!-- Education -->
-      <div class="educationItem">
-        <div class="sectionHeader">Education</div>
-        <span class="leftColumn">
-          <span class="schoolName">ITIS Barsanti</span>
-          <span class="dateRange">2012 - 2017</span>
-        </span>
-        <span class="rightColumn">
-          <span class="degreeTitle">High School</span>
-          <span class="degreeDescription">Computer Science</span>
-        </span>
-      </div>
-      <!-- Hobbies -->
-      <div class="hobbiesSection">
-        <div class="sectionHeader">Interests and Hobbies</div>
-        <div class="description">Learning, Driving, Cooking, Fishing</div>
+      <div class="flex flex-col ml-8">
+        <span class="font-semibold">Frontend Developer</span>
+        <ul class="text-sm">
+          <li>Architected and developed management back office and CRM applications <span
+              class="text-gray-500 font-semibold">(Angular 8, NgRx, Rxjs, Bootstrap, Angular Material)</span>.
+          </li>
+          <li>Developed a geocalized search engine application for products <span
+              class="text-gray-500 font-semibold">(Angular 8, Ionic 4, Rxjs, SCSS)</span>.
+          </li>
+          <li>Developed hybrid mobile applications for retail <span
+              class="text-gray-500 font-semibold">(Angular 6, Ionic 3, Rxjs, SCSS)</span>.
+          </li>
+          <li>Designed and developed UI components library <span class="text-gray-500 font-semibold">(Stenciljs, TSX, SCSS)</span>.
+          </li>
+          <li>Architected and developed PWAs and implemented custom service workers <span
+              class="text-gray-500 font-semibold">(Anular 8, Ionic 4, SCSS)</span>.
+          </li>
+          <li>Performed scrum using Azure DevOps.</li>
+          <li>Acquired good knowledge of CMS like Umbraco and Contentful.</li>
+        </ul>
       </div>
     </div>
   </div>
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <!-- Projects -->
+  <div class="flex flex-col mt-4">
+    <span class="uppercase font-medium">Projects</span>
+    <div class="w-full h-0.5 bg-gray-200 mb-2"></div>
+    <div class="flex items-start justify-items-stretch gap-4 text-white">
+      <div class="flex-1 flex flex-col items-center p-3.5 rounded-md border relative">
+        <a href="https://github.com/treeoctoteam/ui-kit">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-1 left-1" viewBox="0 0 16 16">
+            <path fill="#5C6BC0"
+                  d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"/>
+          </svg>
+        </a>
+        <div class="flex flex-col items-center">
+          <span class="font-medium text-gray-600">ui-kit</span>
+          <span class="text-sm text-gray-300">2021</span>
+        </div>
+        <div class="w-full h-0.5 bg-gray-100 my-1"></div>
+        <div class="flex-1">
+          <ul class="text-sm text-center text-black">
+            <li>Complete Stenciljs components library styled with tailwind <span
+                class="text-gray-500 font-semibold">(Stenciljs, tailwindcss)</span>.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-1 flex flex-col items-center p-3.5 rounded-md border h-full relative">
+        <a href="https://github.com/treeoctoteam/ui-kit">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-1 left-1" viewBox="0 0 16 16">
+            <path fill="#5C6BC0"
+                  d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"/>
+          </svg>
+        </a>
+        <span class="font-medium text-gray-600">simonato-farm</span>
+        <span class="text-sm text-gray-300">2020</span>
+        <div class="w-full h-0.5 bg-gray-100 my-1"></div>
+        <div class="flex-1">
+          <ul class="text-sm text-center text-black">
+            <li>
+              Ionic PWA integrated with a Nestjs backend and firebase <span class="text-gray-500 font-semibold">(Ionic, Nestjs, RxJs)</span>.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-1 flex flex-col items-center p-3.5 rounded-md border h-full relative">
+        <a href="https://github.com/MilaniPaolo/ng-refresher">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-1 left-1" viewBox="0 0 16 16">
+            <path fill="#5C6BC0"
+                  d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"/>
+          </svg>
+        </a>
+        <div class="flex flex-col items-center">
+          <span class="font-medium text-gray-600">rx-refresher</span>
+          <span class="text-sm text-gray-300">2019</span>
+        </div>
+        <div class="w-full h-0.5 bg-gray-100 my-1"></div>
+        <div class="flex-1">
+          <ul class="text-sm text-center text-black">
+            <li>Angular component for animating content data refresh Google style <span
+                class="text-gray-500 font-semibold">(Angular, Rxjs)</span>.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-1 flex flex-col border items-center p-3.5 rounded-md h-full relative">
+        <a href="https://github.com/MilaniPaolo">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-1 left-1" viewBox="0 0 16 16">
+            <path fill="#5C6BC0"
+                  d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"/>
+          </svg>
+        </a>
+        <div class="flex flex-col items-center">
+          <span class="font-medium whitespace-nowrap text-gray-600">nested-dynamic-forms</span>
+          <span class="text-sm text-gray-300">2018</span>
+        </div>
+        <div class="w-full h-0.5 bg-gray-100 my-1"></div>
+        <div class="flex-1">
+          <ul class="text-sm text-center text-black">
+            <li>Angular application example for generate nested dynamic forms <span
+                class="text-gray-500 font-semibold">(Angular, Rxjs)</span>.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex items-start justify-between gap-8 mt-4">
+    <!-- Skills -->
+    <div class="flex-1">
+      <div class="uppercase font-medium">Skills</div>
+      <div class="w-full h-0.5 bg-gray-200 mb-2"></div>
+      <div class="flex flex-wrap justify-center gap-2 text-sm font-medium text-white">
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Angular 12+</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Rxjs</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">NgRx</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Stenciljs</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Ionic 5</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">React</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Jest</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Angular Material</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">SASS</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Nestjs</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Typescript</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Design Patterns</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">SOLID</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Agile</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">DevOps</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Photoshop</span>
+        <span class="bg-gray-500 px-1 py-0.5 rounded-md">Adobe XD</span>
+      </div>
+    </div>
+    <!-- Education -->
+    <div class="flex-1">
+      <div class="uppercase font-medium">Education</div>
+      <div class="w-full h-0.5 bg-gray-200 mb-2"></div>
+      <div class="flex flex-col">
+        <div class="text-sm">
+          <span>ITIS Barsanti</span>
+          <span class="text-gray-300 ml-1">2012 - 2017</span>
+        </div>
+        <span class="flex-1 text-sm">High School Computer Science</span>
+        </span>
+      </div>
+    <!-- Hobbies -->
+      <div class="uppercase font-medium mt-4">Interests and Hobbies</div>
+      <div class="w-full h-0.5 bg-gray-200 mb-2"></div>
+      <div class="text-sm">Learning, Playing electric bass, Driving, Cooking, Fishing</div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
